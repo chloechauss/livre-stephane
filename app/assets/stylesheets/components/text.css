@@ -9,3 +9,23 @@
 .blue {
   color:#006da6f7;
 }
+
+.temoignage {
+  text-align: center;
+  color: white;
+  font-weight: 200;
+  width: 45%;
+}
+
+.gras {
+  font-weight: 500;
+}
+
+.titre-lecteurs {
+  text-align: center;
+  margin-bottom: 51px;
+}
+
+.intro {
+  margin-bottom: 45px;
+}

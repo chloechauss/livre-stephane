@@ -18,6 +18,12 @@
   padding: 70px 50px;
 }
 
+.container-lecteurs {
+  background-color:#00B9D3;
+  width: 100%;
+  padding: 70px 50px;
+}
+
 .centrer {
   display: flex;
   align-items: center;
@@ -98,6 +104,9 @@
   }
   p {
     font-size:15px !important;
+  }
+
+  .intro {
     margin-bottom: 20px !important;
   }
 
