@@ -13,7 +13,7 @@
 }
 
 .container-auteur {
-  background-color:#8080802e;
+  background-color:white;
   width: 100%;
   padding: 70px 50px;
 }
@@ -24,9 +24,24 @@
   padding: 70px 50px;
 }
 
-.centrer {
+.container-arguments {
+  background-color:#EDE634;
+  width: 100%;
+  padding: 70px 50px;
+}
+
+.centrer-vertical {
   display: flex;
   align-items: center;
+}
+
+.centrer-horizontal {
+  display: flex;
+  justify-content: center;
+}
+
+.the-margin-top {
+  margin-top: 50px !important;
 }
 
 @media screen and (max-width: 992px) {
