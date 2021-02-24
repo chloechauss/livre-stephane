@@ -18,20 +18,20 @@
 
 .button-full:hover {
   text-decoration:none;
-  font-weight: 700;
+  font-weight: 600;
   color:white;
 }
 
-.button-white {
-  background-color: white;
-  border-color: white;
-  color:#00B9D3;
+.button-blue{
+  background-color: #006da6f7;
+  border-color: #006da6f7;
+  color:white;
 }
 
-.button-white:hover {
+.button-blue:hover {
   text-decoration:none;
-  font-weight: 700;
-  color:#00B9D3;
+  font-weight: 600;
+  color:white;
 }
 
 .button-empty {
