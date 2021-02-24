@@ -1,16 +1,35 @@
 
- <div class= "container-bandeau">
-  <div class="row justify-content-center justify-content-around align-items-end">
-    <div class="col-12 col-lg-6">
-      <h1 class="turquoise"><strong>ET MAINTENANT, <br> QUE VAIS-JE FAIRE ?</strong></h1>
+ <div class= "container-bandeau flexbox">
+  <div class="row justify-content-around align-items-center align-content-end">
+    <div class="col-12 col-lg-7">
       <h3 class="white">Un petit manuel de sagesse et d’audace <br>pour révéler et cultiver le meilleur de soi.</h3>
-      <p class="white intro">Dans un monde où l'hyper-modernité est source de mal-vivre et où la singularité de chacun s'efface au profit d'une « adaptabilité », Stéphane Dieutre, fort de ses connaissances en psychologie positive et de son expérience d'accompagnement au sein de l'Institut Aristote, propose de trouver en soi sa singularité, irréductible à toute étiquette. Une singularité qui découle de l'acceptation de notre pluralité. Entre témoignages inspirants, démonstration théorique et clés pratiques, un ouvrage indispensable pour réveiller chez chacun son individualité et ses qualités : de quoi apprendre être soi-même pour mener sa mission auprès de tous !</p>
+      <h1 class="turquoise"><strong>ET MAINTENANT, <br> QUE VAIS-JE FAIRE ?</strong></h1>
+      <p class="white">Cette question de l’épanouissement professionnel,
+des millions de personnes se la posent aujourd’hui avec une
+profondeur nouvelle, celle du sens donné à sa vie.
+<div class="saut-de-ligne"></div>
+<p class="white"><strong>Pour avoir fait le chemin lui-même et y avoir accompagné
+bien d’autres, Stéphane Dieutre nous invite d’abord à se
+connaitre soi-même.</strong> Car chacun de nous est riche de
+multiples facettes, faites de talents et d’ombres, qui se
+combinent en soi de manière tout à fait unique.</p>
+<div class="saut-de-ligne"></div>
+<p class="white"><strong>Cette singularité, dont souvent nous n’avons pas
+conscience, est à la fois un trésor et une boussole.</strong> Découvrir nos forces, les comprendre et nous appuyer dessus
+permet d’être précis et ambitieux dans ce que nous voulons
+accomplir, et donne la direction à prendre.</p>
+<div class="saut-de-ligne"></div>
+<p class="white margin-bottom-45"><strong>Cette voie d’un épanouissement heureux, le philosophe
+Aristote la nommait « Eudaimonia ».</strong> De ses préceptes
+posés il y a vingt-quatre siècles, enrichis des apports les plus
+récents de la psychologie, Stéphane Dieutre a conçu un parcours existentiel et engagé que
+ce livre décrit et déploie.</p>
       <div class="buttons">
         <a class="button-round button-empty" href="" target="_blank">Lire le 1er chapitre</a>
         <a class="button-round button-full" href="https://livre.fnac.com/a15588153/Stephane-Dieutre-Et-maintenant-que-vais-je-faire#int=:NonApplicable|NonApplicable|NonApplicable|15588153|NonApplicable|NonApplicable" target="_blank">Commander le livre</a>
       </div>
     </div>
-    <div class="col-12 col-lg-4 couverture">
+    <div class="col-12 col-lg-3 couverture">
       <%= cl_image_tag("https://res.cloudinary.com/dceooc5cf/image/upload/v1614001397/Couverture_livre-Stephane-Dieutre_lqfncm.jpg", crop: :fill, class: "couv") %>
     </div>
   </div>
@@ -18,29 +37,64 @@
 
 <div class= "container-arguments">
   <h2 class="white text-center">Ce que vous trouverez dans ce livre</h2>
-    <div class="row justify-content-around the-margin-top">
-      <div class="col-12 col-xl-3">
-        <div class="centrer-horizontal">
-          <%= cl_image_tag("https://res.cloudinary.com/dceooc5cf/image/upload/v1614089663/developpement-potentiel_ftelav.png") %>
-        </div>
-        <div class="centrer-horizontal">
-          <p class="text-center">Des témoignages inspirants.</p>
-        </div>
-      </div>
-      <div class="col-12 col-xl-3">
+    <div class="row justify-content-around">
+      <div class="col-12 col-xl-3 the-margin-bottom">
         <div class="centrer-horizontal">
           <%= cl_image_tag("https://res.cloudinary.com/dceooc5cf/image/upload/v1614089670/mobilite-transition_pqgki3.png") %>
         </div>
         <div class="centrer-horizontal">
-          <p class="text-center">Une approche basée sur des sources philosophiques anciennes mais aussi des courants de la psychologie et du management les plus récents et innovants.</p>
+          <p class="text-center"><strong>Un éclairage théorique</strong> reprenant la philosophie d’Aristote sur la notion d’épanouissement
+et d’accomplissement.</p>
         </div>
       </div>
-      <div class="col-12 col-xl-3">
+      <div class="col-12 col-xl-3 the-margin-bottom">
         <div class="centrer-horizontal">
           <%= cl_image_tag("https://res.cloudinary.com/dceooc5cf/image/upload/v1614089658/atelier-partage-reinvention_trmsrx.png") %>
         </div>
         <div class="centrer-horizontal">
-          <p class="text-center">dlgkrgek,sdlkg,gprok</p>
+          <p class="text-center"><strong>Les apports des grandes figures de la psychologie sur les mécanismes de
+l’accomplissement</strong>  : Abrham Maslow et la Psychologie humaniste, Carl Jung, Victor Frankl
+et la Thérapie existentielle, Martin Seligman et la Psychologie positive, ainsi que les
+recherches les plus récentes sur le bien-être résultant de l‘eudemonic well-being.</p>
+        </div>
+      </div>
+      <div class="col-12 col-xl-3 the-margin-bottom">
+        <div class="centrer-horizontal">
+          <%= cl_image_tag("https://res.cloudinary.com/dceooc5cf/image/upload/v1614089663/developpement-potentiel_ftelav.png") %>
+        </div>
+        <div class="centrer-horizontal">
+          <p class="text-center"><strong>Une approche de la connaissance de soi structurée autour du concept de
+Personnage-Talents</strong>. En composant quatre à sept Personnages-Talents, la personne se
+donne une cartographie complète, claire et imagée des différentes dimensions et familles de
+talents qui la caractérisent.</p>
+        </div>
+      </div>
+    </div>
+    <div class="row justify-content-around">
+      <div class="col-12 col-xl-3 the-margin-bottom">
+        <div class="centrer-horizontal">
+          <%= cl_image_tag("https://res.cloudinary.com/dceooc5cf/image/upload/v1614089670/mobilite-transition_pqgki3.png") %>
+        </div>
+        <div class="centrer-horizontal">
+          <p class="text-center"><strong>Une vingtaine de cas</strong> analysés dont 4 parcours personnels en annexe du livre.<p>
+        </div>
+      </div>
+      <div class="col-12 col-xl-3 the-margin-bottom">
+        <div class="centrer-horizontal">
+          <%= cl_image_tag("https://res.cloudinary.com/dceooc5cf/image/upload/v1614089658/atelier-partage-reinvention_trmsrx.png") %>
+        </div>
+        <div class="centrer-horizontal">
+          <p class="text-center"><strong>Une réflexion sur la responsabilité que nous confère nos talents</strong> : celle d’agir au
+meilleur de soi pour réponde aux besoins du monde.</p>
+        </div>
+      </div>
+      <div class="col-12 col-xl-3 the-margin-bottom">
+        <div class="centrer-horizontal">
+          <%= cl_image_tag("https://res.cloudinary.com/dceooc5cf/image/upload/v1614089663/developpement-potentiel_ftelav.png") %>
+        </div>
+        <div class="centrer-horizontal">
+          <p class="text-center"><strong>Une exploration des évolutions de l’entreprise vers un nouveau modèle</strong> centré sur le
+plein épanouissement des talents.</p>
         </div>
       </div>
     </div>
@@ -57,25 +111,38 @@
     </div>
     <div class="col-12 col-xl-7">
       <h2 class="turquoise titre-auteur">L'auteur</h2>
-      <p>Fondateur de l’Institut Aristote en 2012 Stéphane Dieutre accompagne les personnes et les organisations dans l’accomplissement de leurs potentiels en révélant ce qu’ils ont de puissant et d’unique à offrir au monde. <br><br>L’approche Aristote de développement des talents a connu un succès rapide, elle est aujourd’hui adoptée au sein de grandes entreprises comme L’Oréal, Société Générale, Vinci, Conseil Régional d’Île de France ou SalesForces pour déployer les potentiels, construire les équipes et développer le leadership.
-      <br><br>Dans une première partie de carrière, Stéphane Dieutre a été Directeur du Planning Stratégique des agences J.Walter-Thompson puis TBWA de 1985 à 1990 puis il fonde avec Véronique Sauret, l’Agence Verte (91-95), première agence en France à se spécialiser dans la communication institutionnelle de l’environnement et de la santé.
-      Plus récemment, il a créé et dirigé avec Jean-Maxence Granier le cabinet Think-Out de 2008 à 2010 et développé l’activité de conseil au sein de cette structure.</p>
+      <p>Comme il en témoigne dans son livre, Stéphane Dieutre a longtemps cherché sa voie.
+Après une première carrière dans la communication et l’innovation, il comprend que son
+aspiration profonde est « d’accompagner l’humain », il se forme à la
+psychothérapie analytique, s’initie à la psychologie positive et s’oriente vers
+le coaching.</p>
+      <div class="saut-de-ligne"></div>
+<p>Inspiré par une citation attribuée à Aristote, il crée une méthode pour aider
+les personnes à trouver leur chemin d’accomplissement et fonde l’institut
+Aristote en 2012. Aujourd’hui, la méthode Aristote est pratiquée, en
+français et en anglais, par plus de cinquante coachs en France et en
+Europe. Elle se développe dans les plus grandes organisations pour
+accompagner le développement des talents.</p>
     </div>
   </div>
 </div>
 
 <div class= "container-lecteurs">
   <h2 class="blue titre-lecteurs">L'avis des lecteurs</h2>
-  <div class="row justify-content-around">
-    <p class="temoignage col-12 col-lg-5"><span class="gras">"Dans la période que nous traversons ce livre va être utile à beaucoup de monde. Donner du sens à notre vie et à notre métier me semble l'un des enjeux majeurs de notre siècle. Si on s'y met tous, on devrait en voir les résultats ! J'ai appris beaucoup de choses, particulièrement apprécié les exemples de parcours qui rendent le propos vivant et partagé beaucoup de vos points de vue. Je ne suis pas certaine de connaître encore tous mes personnages-talents ni toutes mes ombres mais votre livre m'incite à y réfléchir..."</span><br>Hélène Bihery</p>
-    <p class="temoignage col-12 col-lg-5"><span class="gras">"C’est remarquablement bien écrit. Cet équilibre entre le cheminement de l'auteur, ses enseignements et ses clients. Parfait équilibre. Ça donne envie de faire l’Institut. Bravo."</span><br>Jacques Huybrechts</p>
-  </div>
+    <p class="temoignage"><span class="gras">"Dans la période que nous traversons ce livre va être utile à beaucoup de monde. Donner du sens à notre vie et à notre métier me semble l'un des enjeux majeurs de notre siècle. Si on s'y met tous, on devrait en voir les résultats ! J'ai appris beaucoup de choses, particulièrement apprécié les exemples de parcours qui rendent le propos vivant et partagé beaucoup de vos points de vue. Je ne suis pas certaine de connaître encore tous mes personnages-talents ni toutes mes ombres mais votre livre m'incite à y réfléchir..."</span><br>Hélène Bihery</p>
+    <div class="saut-de-ligne"></div>
+    <div class="saut-de-ligne"></div>
+    <p class="temoignage"><span class="gras">"C’est remarquablement bien écrit. Cet équilibre entre le cheminement de l'auteur, ses enseignements et ses clients. Parfait équilibre. Ça donne envie de faire l’Institut. Bravo."</span><br>Jacques Huybrechts</p>
+    <div class="centrer-horizontal">
+      <a class="button-round button-white mt-4" href="https://livre.fnac.com/a15588153/Stephane-Dieutre-Et-maintenant-que-vais-je-faire#int=:NonApplicable|NonApplicable|NonApplicable|15588153|NonApplicable|NonApplicable" target="_blank">Commander le livre</a>
+    </div>
 </div>
 
 
 
-<h2>La presse en parle</h2>
+<!-- <h2>La presse en parle</h2>
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Gce7h6jpe6g" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
+ -->

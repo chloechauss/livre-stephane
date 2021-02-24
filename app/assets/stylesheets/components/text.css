@@ -14,10 +14,13 @@
   text-align: center;
   color: white;
   font-weight: 200;
-  width: 45%;
+  width: 80%;
+  margin: auto;
+  padding-bottom: 30px;
 }
 
 .gras {
+  font-size: 25px;
   font-weight: 500;
 }
 
@@ -26,10 +29,14 @@
   margin-bottom: 51px;
 }
 
-.intro {
-  margin-bottom: 45px;
-}
-
 .text-center {
   text-align:center;
+}
+
+.saut-de-ligne {
+  height: 10px
+}
+
+.margin-bottom-45 {
+  margin-bottom : 45px;
 }

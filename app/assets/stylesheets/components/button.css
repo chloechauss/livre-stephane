@@ -11,17 +11,27 @@
 }
 
 .button-full {
-
   background-color: #00B9D3;
   border-color: #00B9D3;
   color:white;
-
 }
 
 .button-full:hover {
   text-decoration:none;
   font-weight: 700;
   color:white;
+}
+
+.button-white {
+  background-color: white;
+  border-color: white;
+  color:#00B9D3;
+}
+
+.button-white:hover {
+  text-decoration:none;
+  font-weight: 700;
+  color:#00B9D3;
 }
 
 .button-empty {
